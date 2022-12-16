@@ -127,7 +127,7 @@ function App() {
                 lg: "left",
               }}
             >
-              Watch Something Incredible.
+              Watch Interesting Movies.
             </Text>
           </Box>
         </Box>

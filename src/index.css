@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+
+html,
+body {
+  font-family: 'DM Sans', sans-serif !important;
+}

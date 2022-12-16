@@ -11,15 +11,17 @@ import {
 import { Box, Text, Image, Input, HStack } from "@chakra-ui/react";
 import Logo from "./assets/Logo.svg";
 import HeadImage from "./assets/HeadImage2.jpg";
-import PhoneImg from "./assets/phoneImg.png";
+
 function App() {
-  const [searchValue, setSearchValue] = useState("Harry Potter");
+  const [searchValue, setSearchValue] = useState("Game of Thrones");
   const [movies, setMovies] = useState([]);
   const [searchedMovies, setSearchedMovies] = useState([]);
 
   // function to get movies
-  async function getMovies(search = "Avengers") {
-    const url = `http://www.omdbapi.com/?s=${search}&apikey=ddd1d67b`;
+  async function getMovies(search = "Batman") {
+   const url = `http://www.omdbapi.com/?s=${search}&apikey=ddd1d67b`;
+   //const url = 'http://www.omdbapi.com/?s=${search}&apikey=Batman&page=2'
+   
     const response = await fetch(url);
     const responseJson = await response.json();
     return responseJson;

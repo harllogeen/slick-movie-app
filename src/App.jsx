@@ -216,7 +216,7 @@ function App() {
             Action
           </Text>
           <Text color="#000" mb="18px">
-            SHIFT + Wheel - To Scroll sideways.
+             Scroll sideways.
           </Text>
           <Box
             scrollBehavior="inside"

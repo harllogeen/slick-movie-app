@@ -125,7 +125,7 @@ function App() {
                 lg: "left",
               }}
             >
-              Watch Interesting Movies.
+              Watch Something Incredible.
             </Text>
           </Box>
         </Box>
@@ -161,7 +161,7 @@ function App() {
             {searchValue}
           </Text>
           <Text color="#000" mb="18px">
-             Scroll sideways.
+             Scroll sideways>>
           </Text>
           <Box
             scrollBehavior="inside"
@@ -214,7 +214,7 @@ function App() {
             Action Movies
           </Text>
           <Text color="#000" mb="18px">
-             Scroll sideways.
+             Scroll sideways>>
           </Text>
           <Box
             scrollBehavior="inside"

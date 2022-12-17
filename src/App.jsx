@@ -3,10 +3,8 @@ import { extendTheme } from "@chakra-ui/react";
 import {
   Center,
   ChakraProvider,
-  Flex,
-  FormControl,
   FormLabel,
-  Stack,
+ 
 } from "@chakra-ui/react";
 import { Box, Text, Image, Input, HStack } from "@chakra-ui/react";
 import Logo from "./assets/Logo.svg";
@@ -86,7 +84,7 @@ function App() {
           <Image boxSize="193px" src={Logo} alt="Logo" />
         </Box>
 
-        {/* Header */}
+        {/* the Header */}
         <Box
           width="100%"
           height={{
@@ -132,7 +130,7 @@ function App() {
           </Box>
         </Box>
 
-        {/* Search component */}
+        {/* Searching component */}
         <Box pl={{
             sm: "28px",
             md: "28px",
@@ -153,7 +151,7 @@ function App() {
           </form>
         </Box>
 
-        {/* Movie category component */}
+        {/* Movies category component */}
         <Box py="48px" width="100%" pl={{
             sm: "28px",
             md: "28px",
@@ -213,7 +211,7 @@ function App() {
             lg: "77px",
         }}>
           <Text fontSize="24px" color="#000">
-            Action
+            Action Movies
           </Text>
           <Text color="#000" mb="18px">
              Scroll sideways.

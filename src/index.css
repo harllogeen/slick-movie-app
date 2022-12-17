@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+/* @import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic); */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 html,
 body {
-  font-family: 'DM Sans', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
